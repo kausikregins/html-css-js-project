@@ -1,0 +1,56 @@
+body,
+html {
+    margin: 0%;
+    padding: 0%;
+    height: 100%;
+    background-image: linear-gradient(to right, rgb(103, 197, 153), rgba(7, 165, 68, 0.87));
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+    text-align: center;
+    margin: 100px auto;
+    border-radius: 5px;
+
+    padding: 30px;
+    
+}
+span{
+    color: green;
+    cursor: pointer;
+}
+
+h1{
+  color: green; 
+  
+}
+
+button{
+    padding: 15px 30px;
+    font-size: 16px;
+    color:white;
+    background-color: rgb(10, 146, 51);
+    cursor: pointer;    
+}
+input[type="text"]{
+    width: 300px;
+    height: 45px;
+}
+input[type="password"]{
+    width: 300px;
+    height: 45px;
+}
+.d{
+    text-align: left;
+}
